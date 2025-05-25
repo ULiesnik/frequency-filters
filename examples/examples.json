@@ -1,42 +1,37 @@
 [
     {
-        "Descryption":"Оригінальне зображення | Max значення зрізу 500 :",
-        "Spectrum":"examples/spectr_image6.jpg",
-        "Image":"examples/grayscale_image6.jpg"
+        "Descryption":"Оригінальне зображення | Max значення зрізу 299 :",
+        "Spectrum":"examples/spectr_image13.png",
+        "Image":"examples/grayscale_image13.png"
     },
     {
-        "Descryption":"Пропуск низьких частот | d0=250 | коефіцієнт=0,5 :",
-        "Spectrum":"examples/filtered_spectr_image6_250_05_l.jpg",
-        "Image":"examples/filtered_image6_250_05_l.jpg"
+        "Descryption":"Пропуск низьких частот | Ідеальний зріз | d0=120 :",
+        "Spectrum":"examples/filtered_spectr_image13_ilp120.png",
+        "Image":"examples/filtered_image13_ilp120.png"
     },
     {
-        "Descryption":"Пропуск низьких частот | d0=250 | коефіцієнт=3 :",
-        "Spectrum":"examples/filtered_spectr_image6_250_3_l.jpg",
-        "Image":"examples/filtered_image6_250_3_l.jpg"
+        "Descryption":"Пропуск низьких частот | Гауса | d0=100 :",
+        "Spectrum":"examples/filtered_spectr_image13_glp100.png",
+        "Image":"examples/filtered_image13_glp100.png"
     },
     {
-        "Descryption":"Пропуск виисоких частот | d0=200 | коефіцієнт=1,5 :",
-        "Spectrum":"examples/filtered_spectr_image6_200_15_h.jpg",
-        "Image":"examples/filtered_image6_200_15_h.jpg"
+        "Descryption":"Пропуск низьких частот | Баттерворта порядку 2 | d0=100 :",
+        "Spectrum":"examples/filtered_spectr_image13_blp2_100.png",
+        "Image":"examples/filtered_image13_blp2_100.png"
     },
     {
-        "Descryption":"Пропуск високих частот  | d0=50 | коефіцієнт=0 :",
-        "Spectrum":"examples/filtered_spectr_image6_50_0_h.jpg",
-        "Image":"examples/filtered_image6_50_0_h.jpg"
+        "Descryption":"Пропуск високих частот | Ідеальний зріз | d0=80 :",
+        "Spectrum":"examples/filtered_spectr_image13_ihp_80.png",
+        "Image":"examples/filtered_image13_ihp_80.png"
     },
     {
-        "Descryption":"Смуговий фільтр 1 | d0=200, d1=300 | коефіцієнт=2 :",
-        "Spectrum":"examples/filtered_spectr_image6_200_300_2_bs.jpg",
-        "Image":"examples/filtered_image6_200_300_2_bs.jpg"
+        "Descryption":"Смуговий фільтр 2 | Баттерворта порядку 2 | d0=120, w=100 ",
+        "Spectrum":"examples/filtered_spectr_image13_bbs2_120_100.png",
+        "Image":"examples/filtered_image13_bbs2_120_100.png"
     },
     {
-        "Descryption":"Смуговий фільтр 1 | d0=100, d1=300 | коефіцієнт=0 :",
-        "Spectrum":"examples/filtered_spectr_image6_100_300_0_bs.jpg",
-        "Image":"examples/filtered_image6_100_300_0_bs.jpg"
-    },
-    {
-        "Descryption":"Смуговий фільтр 3| d0=10, d1=400 | коефіцієнт=0,6 :",
-        "Spectrum":"examples/filtered_spectr_image6_10_400_bp.jpg",
-        "Image":"examples/filtered_image6_10_400_bp.jpg"
-    }   
+        "Descryption":"Смуговий фільтр 1 | Баттерворта порядку 2 | d0=20, w=50 :",
+        "Spectrum":"examples/filtered_spectr_image13_bps2_20_50.png",
+        "Image":"examples/filtered_image13_bps2_20_50.png"
+    }  
 ]
